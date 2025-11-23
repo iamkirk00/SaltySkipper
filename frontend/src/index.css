@@ -1,0 +1,34 @@
+:root{
+  --accent:#0b6cf5;
+  --bg:#f7f7f9;
+}
+body{
+  margin:0;
+  font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background:var(--bg);
+  color:#111;
+}
+.top-nav{
+  display:flex;
+  gap:16px;
+  padding:12px 24px;
+  background:#fff;
+  box-shadow:0 1px 4px rgba(0,0,0,0.06);
+}
+.top-nav a{color:var(--accent); text-decoration:none}
+.main-container{padding:24px}
+.landing{
+  display:flex;flex-direction:column;align-items:center;gap:18px;
+}
+.landing .header{
+  width:100%;display:flex;justify-content:space-between;align-items:center;
+}
+.logo-placeholder{width:120px; height:48px; background:#eee; display:flex;align-items:center;justify-content:center;border-radius:6px}
+.skipper-image{width:240px;height:180px;background:#ddd;border-radius:8px;display:flex;align-items:center;justify-content:center}
+.chat-box{width:640px; max-width:95%; min-height:160px; background:#fff; border-radius:8px; padding:12px; box-shadow:0 1px 6px rgba(0,0,0,0.06)}
+
+.label-card{max-width:420px;background:#fff;padding:18px;border-radius:8px;box-shadow:0 1px 6px rgba(0,0,0,0.06)}
+.label-title{font-weight:700;margin-bottom:12px}
+
+.videos-grid{display:flex;gap:12px;flex-wrap:wrap}
+.video-tile{width:300px;height:170px;background:#222;color:#fff;display:flex;align-items:center;justify-content:center;border-radius:6px}
